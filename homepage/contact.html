@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Ryan Dunlavey - RIT Student</title> 
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="styles/home_page.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="content">
+            <header class="superClass">
+                <h1>Ryan Dunlavey</h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="second.html">Second Page</a></li>
+                        <li><a href="contact.html">Contact Ryan</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <form id="contactForm" action="submitContact.html" method="POST">Contact Me!
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="John Doe" required>
+                    </div>
+                    <div>
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                    </div>
+                    <div>
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="(555) 555-5555">
+                    </div>
+                    <div>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <div>
+                        <label for="awesome">Are you awesome?</label>
+                        <input type="checkbox" id="awesome" name="awesome" checked>
+                    </div>
+                    <div>
+                        <span>How awesome are you?</span>
+                        <div>
+                            <label>Okay</label>
+                            <input type="radio" name="okayAwesome" value="Okay">
+                        </div>
+                        <div>
+                            <label>Great</label>
+                            <input type="radio" name="greatAwesome" value="Good">
+                        </div>
+                        <div>
+                            <label>Amazing</label>
+                            <input type="radio" name="amazingAwesome" value="Awesome">
+                        </div>
+                    </div>
+                    <input type="submit">
+                </form>
+            </main>
+            <footer>
+                &copy;2023 - Ryan Dunlavey
+            </footer>
+        </div>
+    </body>
+</html>
